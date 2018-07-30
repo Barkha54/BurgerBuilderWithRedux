@@ -1,0 +1,75 @@
+[debug] [2018-06-27T09:41:40.669Z] ----------------------------------------------------------------------
+[debug] [2018-06-27T09:41:40.671Z] Command:       /Users/rwb/.nvm/versions/node/v6.9.5/bin/node /usr/local/bin/firebase login --reauth
+[debug] [2018-06-27T09:41:40.672Z] CLI Version:   3.19.1
+[debug] [2018-06-27T09:41:40.672Z] Platform:      darwin
+[debug] [2018-06-27T09:41:40.672Z] Node Version:  v6.9.5
+[debug] [2018-06-27T09:41:40.673Z] Time:          Wed Jun 27 2018 15:11:40 GMT+0530 (IST)
+[debug] [2018-06-27T09:41:40.673Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+[info] Visit this URL on any device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=393637222&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2018-06-27T09:42:06.575Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ { code: '4/AAAf48M3dX5ALbD5nFd-r_S6PicGezIIRe-OG7okPb-ABHeO25zBYyEF__51q3MsB1SG2mlLsoJXPZ6YltOXnQ8',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  redirect_uri: 'http://localhost:9005',
+  grant_type: 'authorization_code' } 
+ Wed Jun 27 2018 15:12:06 GMT+0530 (IST)
+[debug] [2018-06-27T09:42:06.631Z] Token Fetch Error: Error
+    at Error.FirebaseError (/usr/local/lib/node_modules/firebase-tools/lib/error.js:11:16)
+    at Request._callback (/usr/local/lib/node_modules/firebase-tools/lib/api.js:35:11)
+    at self.callback (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at emitOne (events.js:96:13)
+    at Request.emit (events.js:188:7)
+    at Request.onRequestError (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:877:8)
+    at emitOne (events.js:96:13)
+    at ClientRequest.emit (events.js:188:7)
+    at ClientRequest.onError (/usr/local/lib/node_modules/firebase-tools/node_modules/tunnel-agent/index.js:179:21)
+    at ClientRequest.g (events.js:291:16)
+[debug] [2018-06-27T09:42:19.346Z] ----------------------------------------------------------------------
+[debug] [2018-06-27T09:42:19.348Z] Command:       /Users/rwb/.nvm/versions/node/v6.9.5/bin/node /usr/local/bin/firebase login --reauth
+[debug] [2018-06-27T09:42:19.349Z] CLI Version:   3.19.1
+[debug] [2018-06-27T09:42:19.349Z] Platform:      darwin
+[debug] [2018-06-27T09:42:19.349Z] Node Version:  v6.9.5
+[debug] [2018-06-27T09:42:19.350Z] Time:          Wed Jun 27 2018 15:12:19 GMT+0530 (IST)
+[debug] [2018-06-27T09:42:19.350Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+[info] Visit this URL on any device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=685161327&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2018-06-27T09:42:26.982Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ { code: '4/AADYZe-2ArmqRUsbk0FARpjNB8vj854NTJcZOjuMYoTqC1IDzceXNsYh9ddE-sc7-JuepFOvEUtyRypfnprsiSg',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  redirect_uri: 'http://localhost:9005',
+  grant_type: 'authorization_code' } 
+ Wed Jun 27 2018 15:12:26 GMT+0530 (IST)
+[debug] [2018-06-27T09:42:27.005Z] Token Fetch Error: Error
+    at Error.FirebaseError (/usr/local/lib/node_modules/firebase-tools/lib/error.js:11:16)
+    at Request._callback (/usr/local/lib/node_modules/firebase-tools/lib/api.js:35:11)
+    at self.callback (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at emitOne (events.js:96:13)
+    at Request.emit (events.js:188:7)
+    at Request.onRequestError (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:877:8)
+    at emitOne (events.js:96:13)
+    at ClientRequest.emit (events.js:188:7)
+    at ClientRequest.onError (/usr/local/lib/node_modules/firebase-tools/node_modules/tunnel-agent/index.js:179:21)
+    at ClientRequest.g (events.js:291:16)
+[debug] [2018-06-27T09:42:40.542Z] ----------------------------------------------------------------------
+[debug] [2018-06-27T09:42:40.545Z] Command:       /Users/rwb/.nvm/versions/node/v6.9.5/bin/node /usr/local/bin/firebase login --reauth
+[debug] [2018-06-27T09:42:40.545Z] CLI Version:   3.19.1
+[debug] [2018-06-27T09:42:40.545Z] Platform:      darwin
+[debug] [2018-06-27T09:42:40.545Z] Node Version:  v6.9.5
+[debug] [2018-06-27T09:42:40.546Z] Time:          Wed Jun 27 2018 15:12:40 GMT+0530 (IST)
+[debug] [2018-06-27T09:42:40.546Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+[info] Visit this URL on any device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=337237257&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
